@@ -5,3 +5,19 @@ ul{
     align-items: center;
     padding: 16px;
 }
+
+.container {
+    padding: 0px 50px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid bisque;
+}
+
+.centro {
+    text-align: center;
+
+}
