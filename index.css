@@ -1,3 +1,8 @@
+
+body {
+    background: rgb(230, 214, 214);
+}
+
 ul{
     display: flex;
     justify-content: space-between;
@@ -8,16 +13,47 @@ ul{
 
 .container {
     padding: 0px 50px;
+    background-color: #0af716;
+}
+
+nav {
+    background: skyblue;
+}
+
+nav img{
+    /* position: 130 140 40 440; */
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+div{
+   background: violet;
+}
+
+header {
+   background-color: blue;
+   background-position: bottom;
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid bisque;
+    width:  60px;
+    height: 60px;
+    border-radius: 50px 50px;
+    border: 2px solid yellow;
 }
 
-.centro {
+.cImagem1 {
     text-align: center;
+}
 
+footer{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 6%;
+    position: fixed;
+    width: 100%;
+    background: rgb(247, 183, 193);
+    text-align: center;
 }
